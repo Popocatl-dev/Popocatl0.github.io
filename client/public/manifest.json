@@ -1,0 +1,12 @@
+{
+  "name": "Popocatl Portfolio",
+  "short_name": "React-Portfolio",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#000",
+  "theme_color": "#181a27",
+  "description": "A simple Portfolio App, implementing a lot of PWA",
+  "dir": "ltr",
+  "lang": "en-US"
+}
