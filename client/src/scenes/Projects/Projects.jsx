@@ -15,8 +15,8 @@ const Projects = () => {
         {labelsText.subtitle(s.subtitle)}
 
         <ul className={s.projects}>
-          {PROJECTS.map((props) => (
-            <ProjectCard key={props.id} {...props} />
+          {PROJECTS.map((props, key) =>(
+            <ProjectCard id={key} {...props} />
           ))}
         </ul>
       </div>

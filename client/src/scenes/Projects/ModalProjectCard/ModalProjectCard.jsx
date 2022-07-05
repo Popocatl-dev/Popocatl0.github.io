@@ -11,9 +11,8 @@ import { useLanguage } from '../../../hooks/localHook/localHook';
 
 const ModalProjectCard = () => {
   const { id } = useParams();
-  const { image, title, links, text } = PROJECTS.find(
-    (p) => id === p.id,
-  );
+  const { image, title, links, text } = PROJECTS[id];
+  //PROJECTS.find((p) => id === p.id,);
   const { isVisible, toggleModal } = useModal();
   const projectText = useLanguage(text);
   const labelsText = useLanguage(LABELS);

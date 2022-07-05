@@ -23,7 +23,6 @@ export const LABELS = {
 
 export const PROJECTS = [
   {
-    id: '1',
     title: 'Watertown',
     image: {
       src: 'https://res.cloudinary.com/dnb5g8p7v/image/upload/c_crop,h_598,w_598/v1656891478/portfolio/watertown_qehjg5.jpg',
@@ -32,6 +31,7 @@ export const PROJECTS = [
         site: 'https://big-monster.net/project/water-town/',
       },
       technologies: [
+        'SACMEX',
         'Big monster',
         'Unity',
         'C#',
@@ -54,7 +54,6 @@ export const PROJECTS = [
     }
   },
   {
-    id: '2',
     title: 'Mansion Alien',
     image: {
       src: 'https://res.cloudinary.com/dnb5g8p7v/image/upload/v1656891480/portfolio/alien_dcfj54.png',
@@ -63,6 +62,7 @@ export const PROJECTS = [
         site: 'https://play.google.com/store/apps/details?id=mx.inoma.mansionalien2&hl=es_AR&gl=US',
       },
       technologies: [
+        'Tak tak tak',
         'Big Monster',
         'Unity',
         'C#',
@@ -75,7 +75,7 @@ export const PROJECTS = [
         description: (<>
           Game for the prevention of drug abuse in young people from 8 to 13 years old.
           I programmed the controls, AI of enemies and bosses, quests, dialogues and collectables.
-          I created the shaders of the main character and enemies, as well as a render to simulete ilumination without lights.
+          I created the shaders of the main character and enemies, as well as a render to simulate ilumination without lights.
           Also I designed a tool for level integration using Tiled and json. 
         </>)},
       esp : {
@@ -89,7 +89,6 @@ export const PROJECTS = [
     }
   },
   {
-    id: '3',
     title: 'Mechawaiis',
     image: {
       src: 'https://res.cloudinary.com/dnb5g8p7v/image/upload/c_crop,h_503,w_503/v1656891478/portfolio/mecha_qalorj.jpg',
@@ -120,9 +119,8 @@ export const PROJECTS = [
         </>)}
     }
   },
-
+  
   {
-    id: '4',
     title: 'Paipote',
     image: {
       src: 'https://res.cloudinary.com/dnb5g8p7v/image/upload/v1657039621/portfolio/paipote_g7gtek.jpg',
@@ -152,7 +150,6 @@ export const PROJECTS = [
   },
 
   {
-    id: '5',
     title: "Hell kitten night's",
     image: {
       src: 'https://res.cloudinary.com/dnb5g8p7v/image/upload/v1657039621/portfolio/kitten_cx43km.jpg',
