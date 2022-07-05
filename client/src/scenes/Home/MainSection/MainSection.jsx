@@ -1,5 +1,5 @@
 import s from './MainSection.module.scss';
-import homeMainIcon from '../../../assets/home-main.png';
+import homeMainIcon from '../../../assets/home-main.jpg';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { useLanguage } from '../../../hooks/localHook/localHook';
 import { MAIN } from '../../../constants/intro';

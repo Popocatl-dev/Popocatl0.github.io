@@ -1,6 +1,5 @@
 import s from './IntroSection.module.scss';
 import avatar from '../../../assets/avatar.png';
-import Tilt from 'react-parallax-tilt';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { useLanguage } from '../../../hooks/localHook/localHook';
 import { INTRO } from '../../../constants/intro';
@@ -20,10 +19,7 @@ const IntroSection = () => {
            
           </div>
         </div>
-
-        <Tilt trackOnWindow={true}>
-          <LazyLoadImage alt="avatar" effect="blur" src={avatar} />
-        </Tilt>
+          <LazyLoadImage alt="avatar" effect="blur" src={avatar} wrapperClassName={s.avatar}/>
       </div>
     </section>
   );

@@ -32,10 +32,10 @@ export const INTRO = {
             </p>
 
             <p>
-            I studied Computer Engineering at UNAM.Have worked as programmer<br /> 
-            for 6 years and 4 in game industry. I participate in  the development <br />
-            of games and multimedia applications for a educational, marketing and,<br />
-            entertaiment purposes on mobile and web platform.
+            I studied Computer Engineering at UNAM.Have worked as a programmer<br /> 
+            for 6 years with expertise in games and web. I participate in the<br />
+            development of games and multimedia applications for educational,<br />
+            marketing and entertainment purposes for mobile and web platforms.
             </p>
 
             <p>
@@ -58,9 +58,9 @@ export const INTRO = {
 
             <p>
             Estudie Ingeniería en Computacion en la UNAM. He trabajado como<br />
-            programador por +6 años y estado en la industrai por +4. Participe<br />
+            programador por 6 años con experiencia en juegos y web. Participe<br />
             en el desarrollo de juegos y aplicaciones multimedia para proyectos<br />
-             educativos, de marketing y entrenenimiento lanzados en movil y web.
+            educativos, de marketing y entrenenimiento lanzados en movil y web.
             </p>
 
             <p>

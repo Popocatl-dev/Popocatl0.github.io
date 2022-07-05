@@ -91,3 +91,16 @@
   transform: scale(1.1);
   box-shadow: 0 0 15px var(--social-shadow);
 }
+
+.avatar {
+  display: flex !important;
+  width: 15rem;
+  min-height: 15rem;
+  margin-top: 2rem;
+  padding: 0 15px;
+
+  & > img {
+    min-width: 230px;
+    height: auto;
+  }
+}

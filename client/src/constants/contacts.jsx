@@ -24,7 +24,7 @@ export const HEADER={
 
 export const FOOTER ={
   en :{
-    credits : ( <>Template from Snaichuk Volodymyr</> ),
+    credits : ( <>Template by Snaichuk Volodymyr</> ),
     dev :  ( <>popocatl22@live.com.mx</> ),
   },
   esp : {
