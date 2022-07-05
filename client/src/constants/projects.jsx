@@ -4,7 +4,7 @@ export const LABELS = {
       <strong className={mainName}>Projects</strong>
     </>),
     subtitle : (mainName) => (<><p className={mainName}>
-        Here are a few projects I've worked on recently.
+        Here are a few projects I've worked.
       </p> </>),
     view : "View project",
     more : "Know more"
@@ -118,6 +118,67 @@ export const PROJECTS = [
           Programe los controles, el sistema de niveles pseudoaleatorio, powerups, obstaculos y 
           la tienda. Integre anuncios con Firebase.
         </>)}
+    }
+  },
+
+  {
+    id: '4',
+    title: 'Paipote',
+    image: {
+      src: 'https://res.cloudinary.com/dnb5g8p7v/image/upload/v1657039621/portfolio/paipote_g7gtek.jpg',
+      },
+      links: {
+        site: 'https://globalgamejam.org/2018/games/paipote',
+      },
+      technologies: [
+        'GGJ 2018',
+        'Unity',
+        'C#',
+      ],
+    text : {
+      en: {
+        position : "Programmer",
+        description: (<>
+          Paipote it's a game from the point and click genre. The game have two phases: Paipote's city exploration and recollection of grandfather's memories.
+          I programmed the navigation, collectables and a shader to see thourgh buildings when you are behind them.
+        </>)},
+      esp : {
+        position : "Programmer",
+        description: (<>
+          Paipote es un juego point and click. El juego tiene dos fases: exploración por la ciudad y la recolección de las memorias del abuelo.
+          Programé la navegación, coleccionables y un shader para ver a través de los edificios cuando estas destrás de ellos.
+        </>)},
+    }
+  },
+
+  {
+    id: '5',
+    title: "Hell kitten night's",
+    image: {
+      src: 'https://res.cloudinary.com/dnb5g8p7v/image/upload/v1657039621/portfolio/kitten_cx43km.jpg',
+      },
+      links: {
+        site: 'https://globalgamejam.org/2019/games/hell-kitten-nights',
+      },
+      technologies: [
+        'GGJ 2019',
+        'Unity',
+        'C#',
+      ],
+    text : {
+      en: {
+        position : "Programmer",
+        description: (<>
+          Help Dante fight Fausto's nightmares in this fun shooter where you have the power to decide if you face your fears or eliminate them completely.
+          I programmed the controls and the shooter system.
+        </>)},
+      esp : {
+        position : "Programmer",
+        description: (<>
+        Ayuda a Dante a pelear contre las pesadillas de Fausto en este divertido shooter, donde tienes el pode de decidir
+        si enfrentas tus miedos o los eliminas por completo.
+        Programé los controles y el sistema de disparo.
+        </>)},
     }
   },
 ];

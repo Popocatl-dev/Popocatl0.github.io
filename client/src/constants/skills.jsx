@@ -76,7 +76,7 @@ export const SOFTWARE = [
     {tech : "Node.js", level : LEVEL.intermediate, Logo : DiNodejs},
     {tech : "React", level : LEVEL.intermediate, Logo : DiReact},
     {tech : "Blender", level : LEVEL.beginer, Logo : SiBlender},
-    {tech : "Visiual Studio", level : LEVEL.beginer, Logo : DiVisualstudio},
+    {tech : "Visual Studio", level : LEVEL.beginer, Logo : DiVisualstudio},
   ];
 
 
