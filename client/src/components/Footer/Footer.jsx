@@ -30,7 +30,7 @@ const Footer = () => {
     <div className={s.footer}>
       <div className={s.container}>
         <div className={s.copyright}>
-          <h3>{footerText.credits}</h3>
+        <h3><a href="https://sv-dev.netlify.app">{footerText.credits}</a></h3>
         </div>
 
         <div className={s.copyright}>

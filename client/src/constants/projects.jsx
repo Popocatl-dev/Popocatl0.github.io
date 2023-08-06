@@ -178,5 +178,33 @@ export const PROJECTS = [
         </>)},
     }
   },
+  {
+    title: "Tacoliseum",
+    image: {
+      src: 'https://res.cloudinary.com/dnb5g8p7v/image/upload/v1691299156/portfolio/tacoliseum_osfikz.png',
+      },
+      links: {
+        site: 'https://globalgamejam.org/2023/games/tacoliseum-9',
+      },
+      technologies: [
+        'GGJ 2023',
+        'Unity',
+        'C#',
+      ],
+    text : {
+      en: {
+        position : "Programmer",
+        description: (<>
+          Local multiplayer game where you face death with your opponent in a coliseum. Your only weapon will be chili-bombs. 
+          I programmed the controls and the shooter system.
+        </>)},
+      esp : {
+        position : "Programmer",
+        description: (<>
+        Multijugador local donde te enfrentas a muerte contra tu oponente en un coliseo. Tus únicas armas seran chili-bombs.
+        Programé las físicas y todas la mécanicas del juego.
+        </>)},
+    }
+  }
 ];
 

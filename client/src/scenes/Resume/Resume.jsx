@@ -12,13 +12,30 @@ import { RESUME } from '../../constants/resume';
 import { useLanguage } from '../../hooks/localHook/localHook';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+/*
+const pdfResume = () =>{
+  <Document
+      loading={<LinerProgress />}
+      file={{
+        url: resumeLink,
+      }}
+    >
+      <Page
+        onLoadSuccess={removeTextLayerOffset}
+        loading={<LinerProgress />}
+        width={pdfPageWidth}
+        pageNumber={1}
+    />
+  </Document>
+}*/
 
 
 const Resume = () => {
   const resumeText = useLanguage(RESUME);
   const resumeLink = resumeText.link;
+  
   const pdfWrapper = useRef(null);
-  const [pdfPageWidth, setPdfPageWidth] = useState(null);
+  /*const [pdfPageWidth, setPdfPageWidth] = useState(null);
   useEffect(() => {
     setPdfPageWidth(
       pdfWrapper.current?.getBoundingClientRect().width || null,
@@ -35,7 +52,7 @@ const Resume = () => {
       style.left = '0';
       style.transform = '';
     });
-  };
+  };*/
 
   return (
     <BaseLayout>
@@ -57,19 +74,7 @@ const Resume = () => {
         </Button>
 
         <div className={s.pdfWrapper} ref={pdfWrapper}>
-          <Document
-            loading={<LinerProgress />}
-            file={{
-              url: resumeLink,
-            }}
-          >
-            <Page
-              onLoadSuccess={removeTextLayerOffset}
-              loading={<LinerProgress />}
-              width={pdfPageWidth}
-              pageNumber={1}
-            />
-          </Document>
+          <iframe src={resumeLink} width="960" height="1080" allow="autoplay"></iframe>
         </div>
       </div>
     </BaseLayout>

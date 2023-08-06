@@ -25,22 +25,22 @@ export const HEADER={
 export const FOOTER ={
   en :{
     credits : ( <>Template by Snaichuk Volodymyr</> ),
-    dev :  ( <>popocatl22@live.com.mx</> ),
+    dev :  ( <>popocatl.dev@gmail.com</> ),
   },
   esp : {
     credits : ( <>Plantilla de Snaichuk Volodymyr</> ),
-    dev :  ( <>popocatl22@live.com.mx</> ),
+    dev :  ( <>popocatl.dev@gmail.com</> ),
   }
 }
 
 export const CONTACT = {
   en :{
     findme : ( <>CONTACT</> ),
-    mail : "popocatl22@live.com.mx"
+    mail : "popocatl.dev@gmail.com"
   },
   esp : {
     findme : ( <>CONTACTO</> ),
-    mail : "popocatl22@live.com.mx"
+    mail : "popocatl.dev@gmail.com"
   }
 }
 
