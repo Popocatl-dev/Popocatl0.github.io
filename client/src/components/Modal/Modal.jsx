@@ -1,12 +1,12 @@
 import s from './Modal.module.scss';
 import { ReactComponent as ModalCloseIcon } from '../../assets/modal-close.svg';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import Backdrop from '../UIElements/Backdrop/Backdrop';
 
 const Modal = ({ children, show, onClose }) => {
-  const history = useHistory();
+  const history = useNavigate();
 
   const closeModal = (e) => {
     onClose();

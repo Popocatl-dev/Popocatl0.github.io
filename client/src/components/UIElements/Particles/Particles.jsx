@@ -1,11 +1,11 @@
-import ReactParticles from 'react-particles-js';
+//import Particles from 'react-tsparticles';
 import {
   DARK_THEME_PARTICLES,
   LIGHT_THEME_PARTICLES,
 } from './particleType';
 import { useThemeContext } from '../../../hooks/themeHook/themeHook';
 
-const Particles = () => {
+const ParticlesReact = () => {
   const { dark } = useThemeContext();
 
   const particles = dark
@@ -13,7 +13,8 @@ const Particles = () => {
     : LIGHT_THEME_PARTICLES;
 
   return (
-    <ReactParticles
+      <div></div>
+    /*<Particles
       params={{
         particles: particles,
         interactivity: {
@@ -31,8 +32,8 @@ const Particles = () => {
         },
         retina_detect: true,
       }}
-    />
+    />*/
   );
 };
 
-export default Particles;
+export default ParticlesReact;
